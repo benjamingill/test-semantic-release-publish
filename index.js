@@ -4,7 +4,8 @@ const tokens = [
   "Hello",
   "World",
   "With",
-  "More"
+  "More",
+  "Tokens"
 ];
 
 module.export = () => console.log(join(tokens, ' '));
