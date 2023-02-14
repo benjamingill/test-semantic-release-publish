@@ -1,28 +1,13 @@
-name: Node.js Package
+name: publish release
 
 on:
-  push:
-    # branches: main # main is pre-release branch
+  workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: 'npm'
-      - run: npm ci
-      - run: npm run lint
-      - run: npm run test
-      - run: npm run build
-
   release:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    needs: build
     steps:
     - uses: actions/checkout@v3
     - name: node.js setup

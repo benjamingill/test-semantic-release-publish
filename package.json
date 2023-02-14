@@ -20,5 +20,8 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "semantic-release": "^20.1.0"
   }
 }

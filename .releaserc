@@ -1,7 +1,5 @@
 branches:
   - main
-  - name: main
-    prerelease: true
 debug: true
 ci: true
 dryRun: false
