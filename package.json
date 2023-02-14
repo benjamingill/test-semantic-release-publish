@@ -1,0 +1,24 @@
+{
+  "name": "@benjamingill/test-semantic-release-publish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "echo linting",
+    "test": "echo testing",
+    "build": "echo building"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamingill/test-semantic-release-publish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
